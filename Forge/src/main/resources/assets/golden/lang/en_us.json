@@ -1,0 +1,12 @@
+{
+  "subtitles.item.sword.slice": "Slash attack",
+  "item.golden.sharpened_stone_sword": "Sharpened Stone Sword",
+  "gui.golden.sharpener_gui.button_sharpen": "Sharpen",
+  "item.golden.sawblade": "Sawblade",
+  "block.golden.sharpener": "Sharpener",
+  "subtitles.entity.sliced": "Player slashed.",
+  "gui.golden.sharpener_gui.label_sharpener": "Sharpener",
+  "death.attack.sawblade": "%1$s consumed a sawblade",
+  "item.golden.sharpened_wooden_sword": "Sharpened Wooden Sword",
+  "subtitles.sword_slice": "Player slice."
+}

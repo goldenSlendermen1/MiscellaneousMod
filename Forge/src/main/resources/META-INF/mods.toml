@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="golden"
+version="0.0.2"
+displayName="Golden"
+displayURL="https://scam.com"
+credits="Created using MCreator                                 Sounds obtained from gamebalance and SypherZent licensed under https://creativecommons.org/licenses/by/4.0/"
+authors="goldenSlendermen, MCreator"
+description="Adds some new tools to the game"
+
+[[dependencies.golden]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.golden]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
