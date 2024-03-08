@@ -1,0 +1,10 @@
+{
+  "homepage": "https://modrinth.com/mod/miscellaneous-mod",
+  "1.20.1": {
+    "0.0.2_Alpha": "Made everything obtainable\nAdded Sharpener\nAdded Sawblade\nAdded Sawbladed Command", 
+  },
+  "promos": {
+    "1.20.1-latest": "0.0.2_Alpha",
+    "1.20.1--recommended": "0.0.2_Alpha",
+  }
+}
