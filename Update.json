@@ -2,9 +2,10 @@
   "homepage": "https://modrinth.com/mod/miscellaneous-mod",
   "1.20.1": {
     "0.0.2_Alpha": "Made everything obtainable\nAdded Sharpener\nAdded Sawblade\nAdded Sawbladed Command", 
+    "0.0.3_Alpha": "Added recipe for sawblade item\nRemoved sawedblade command\nAdded new sharpened swords\nFixed config for sharpened swords", 
   },
   "promos": {
-    "1.20.1-latest": "0.0.2_Alpha",
-    "1.20.1--recommended": "0.0.2_Alpha",
+    "1.20.1-latest": "0.0.3_Alpha",
+    "1.20.1-recommended": "0.0.3_Alpha",
   }
 }
