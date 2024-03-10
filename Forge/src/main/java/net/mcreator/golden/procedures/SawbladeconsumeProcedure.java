@@ -8,6 +8,8 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.golden.MiscmodMod;
+
 public class SawbladeconsumeProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
@@ -32,5 +34,6 @@ public class SawbladeconsumeProcedure {
 					}
 				}
 			}, 5);
+		MiscmodMod.LOGGER.info("wtf??? Player consumed sawblade");
 	}
 }

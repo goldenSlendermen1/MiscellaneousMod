@@ -1,0 +1,11 @@
+{
+  "item.sword.slice": {
+    "subtitle": "subtitles.item.sword.slice",
+    "sounds": [
+      {
+        "name": "miscmod:455248__gamebalance__swordy-07",
+        "stream": false
+      }
+    ]
+  }
+}

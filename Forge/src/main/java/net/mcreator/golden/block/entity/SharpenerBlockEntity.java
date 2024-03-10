@@ -22,7 +22,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.golden.world.inventory.SharpenerguiMenu;
-import net.mcreator.golden.init.GoldenModBlockEntities;
+import net.mcreator.golden.init.MiscmodModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -35,7 +35,7 @@ public class SharpenerBlockEntity extends RandomizableContainerBlockEntity imple
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public SharpenerBlockEntity(BlockPos position, BlockState state) {
-		super(GoldenModBlockEntities.SHARPENER.get(), position, state);
+		super(MiscmodModBlockEntities.SHARPENER.get(), position, state);
 	}
 
 	@Override

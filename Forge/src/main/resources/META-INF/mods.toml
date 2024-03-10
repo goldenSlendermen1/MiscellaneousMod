@@ -1,24 +1,26 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="All Rights Reserved"
+license="Creative Commons Attribution-NonCommercial 4.0 International"
 
 [[mods]]
-modId="golden"
-version="0.0.2"
-displayName="Golden"
-displayURL="https://scam.com"
-credits="Created using MCreator                                 Sounds obtained from gamebalance and SypherZent licensed under https://creativecommons.org/licenses/by/4.0/"
+modId="miscmod"
+version="0.0.3"
+displayName="Miscellaneous Mod"
+updateJSONURL="https://raw.githubusercontent.com/goldenSlendermen1/MiscellaneousMod/main/Update.json"
+displayURL="https://modrinth.com/mod/miscellaneous-mod"
+logoFile="logo.png"
+credits="Created using MCreator, Sounds obtained from gamebalance and SypherZent licensed under https://creativecommons.org/licenses/by/4.0/"
 authors="goldenSlendermen, MCreator"
 description="Adds some new tools to the game"
 
-[[dependencies.golden]]
+[[dependencies.miscmod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.golden]]
+[[dependencies.miscmod]]
     modId="forge"
     mandatory=true
     versionRange="[47.2.0]"

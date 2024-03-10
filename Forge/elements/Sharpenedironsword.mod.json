@@ -5,42 +5,36 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "sharpened_stone_sword",
+    "texture": "sharpened_iron_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Sharpened Stone Sword",
+    "name": "Sharpened Iron Sword",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTab": {
       "value": "COMBAT"
     },
-    "harvestLevel": 1,
-    "efficiency": 5.0,
+    "harvestLevel": 2,
+    "efficiency": 8.0,
     "attackSpeed": 1.7,
-    "enchantability": 2,
-    "damageVsEntity": 4.5,
-    "usageCount": 111,
+    "enchantability": 10,
+    "damageVsEntity": 6.0,
+    "usageCount": 225,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE"
-      },
-      {
-        "value": "Blocks.BLACKSTONE"
+        "value": "Items.IRON_INGOT"
       }
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "Stonecut"
+      "name": "Ironcut"
     }
   }
 }

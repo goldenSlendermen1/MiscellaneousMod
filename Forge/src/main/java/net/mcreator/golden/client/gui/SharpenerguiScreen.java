@@ -11,7 +11,7 @@ import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.golden.world.inventory.SharpenerguiMenu;
 import net.mcreator.golden.network.SharpenerguiButtonMessage;
-import net.mcreator.golden.GoldenMod;
+import net.mcreator.golden.MiscmodMod;
 
 import java.util.HashMap;
 
@@ -35,7 +35,7 @@ public class SharpenerguiScreen extends AbstractContainerScreen<SharpenerguiMenu
 		this.imageHeight = 151;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("golden:textures/screens/sharpener_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("miscmod:textures/screens/sharpener_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -51,7 +51,7 @@ public class SharpenerguiScreen extends AbstractContainerScreen<SharpenerguiMenu
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("golden:textures/screens/arrow.png"), this.leftPos + 76, this.topPos + 22, 0, 0, 22, 15, 22, 15);
+		guiGraphics.blit(new ResourceLocation("miscmod:textures/screens/arrow.png"), this.leftPos + 76, this.topPos + 22, 0, 0, 22, 15, 22, 15);
 
 		RenderSystem.disableBlend();
 	}
@@ -72,7 +72,7 @@ public class SharpenerguiScreen extends AbstractContainerScreen<SharpenerguiMenu
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.golden.sharpener_gui.label_sharpener"), 62, 6, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.miscmod.sharpener_gui.label_sharpener"), 62, 6, -12829636, false);
 	}
 
 	@Override
@@ -83,9 +83,9 @@ public class SharpenerguiScreen extends AbstractContainerScreen<SharpenerguiMenu
 	@Override
 	public void init() {
 		super.init();
-		button_sharpen = Button.builder(Component.translatable("gui.golden.sharpener_gui.button_sharpen"), e -> {
+		button_sharpen = Button.builder(Component.translatable("gui.miscmod.sharpener_gui.button_sharpen"), e -> {
 			if (true) {
-				GoldenMod.PACKET_HANDLER.sendToServer(new SharpenerguiButtonMessage(0, x, y, z));
+				MiscmodMod.PACKET_HANDLER.sendToServer(new SharpenerguiButtonMessage(0, x, y, z));
 				SharpenerguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 57, this.topPos + 44, 61, 20).build();

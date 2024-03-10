@@ -5,42 +5,36 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "sharpened_stone_sword",
+    "texture": "sharpened_diamond_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Sharpened Stone Sword",
+    "name": "Sharpened Diamond Sword",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTab": {
       "value": "COMBAT"
     },
-    "harvestLevel": 1,
-    "efficiency": 5.0,
-    "attackSpeed": 1.7,
-    "enchantability": 2,
-    "damageVsEntity": 4.5,
-    "usageCount": 111,
+    "harvestLevel": 3,
+    "efficiency": 12.0,
+    "attackSpeed": 2.5,
+    "enchantability": 10,
+    "damageVsEntity": 8.0,
+    "usageCount": 1500,
     "blocksAffected": [],
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "repairItems": [
       {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE"
-      },
-      {
-        "value": "Blocks.BLACKSTONE"
+        "value": "Items.DIAMOND"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "Stonecut"
+      "name": "Diamondcut"
     }
   }
 }

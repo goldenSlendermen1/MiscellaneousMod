@@ -10,7 +10,7 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 
-import net.mcreator.golden.init.GoldenModItems;
+import net.mcreator.golden.init.MiscmodModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -33,7 +33,7 @@ public class SharpenProcedure {
 				}
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(GoldenModItems.SHARPENED_WOODEN_SWORD.get());
+				ItemStack _setstack = new ItemStack(MiscmodModItems.SHARPENED_WOODEN_SWORD.get());
 				_setstack.setCount(1);
 				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
@@ -52,7 +52,7 @@ public class SharpenProcedure {
 				}
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(GoldenModItems.SHARPENED_STONE_SWORD.get());
+				ItemStack _setstack = new ItemStack(MiscmodModItems.SHARPENED_STONE_SWORD.get());
 				_setstack.setCount(1);
 				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
@@ -71,7 +71,7 @@ public class SharpenProcedure {
 				}
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(Items.IRON_SWORD);
+				ItemStack _setstack = new ItemStack(MiscmodModItems.SHARPENED_IRON_SWORD.get());
 				_setstack.setCount(1);
 				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
@@ -109,7 +109,7 @@ public class SharpenProcedure {
 				}
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(Items.DIAMOND_SWORD);
+				ItemStack _setstack = new ItemStack(MiscmodModItems.SHARPENED_DIAMOND_SWORD.get());
 				_setstack.setCount(1);
 				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();

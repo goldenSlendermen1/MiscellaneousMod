@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "functional",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "miscmod:sawblade"
+    },
+    "c": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "item": "miscmod:sharpener",
+    "count": 1
+  }
+}

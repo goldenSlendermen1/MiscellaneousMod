@@ -19,7 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.golden.init.GoldenModMenus;
+import net.mcreator.golden.init.MiscmodModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -39,7 +39,7 @@ public class SharpenerguiMenu extends AbstractContainerMenu implements Supplier<
 	private BlockEntity boundBlockEntity = null;
 
 	public SharpenerguiMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(GoldenModMenus.SHARPENER_GUI.get(), id);
+		super(MiscmodModMenus.SHARPENER_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(2);

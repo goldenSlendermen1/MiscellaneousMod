@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "miscmod:block/sharpener_bottom",
+    "up": "miscmod:block/sharpener_top",
+    "north": "miscmod:block/sharpener_side",
+    "east": "miscmod:block/sharpener_side",
+    "south": "miscmod:block/sharpener_side",
+    "west": "miscmod:block/sharpener_side",
+    "particle": "miscmod:block/sharpener_bottom"
+  },
+  "render_type": "solid"
+}

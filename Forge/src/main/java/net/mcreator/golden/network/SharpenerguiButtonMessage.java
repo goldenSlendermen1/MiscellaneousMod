@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.golden.world.inventory.SharpenerguiMenu;
 import net.mcreator.golden.procedures.SharpenProcedure;
-import net.mcreator.golden.GoldenMod;
+import net.mcreator.golden.MiscmodMod;
 
 import java.util.function.Supplier;
 import java.util.HashMap;
@@ -70,6 +70,6 @@ public class SharpenerguiButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		GoldenMod.addNetworkMessage(SharpenerguiButtonMessage.class, SharpenerguiButtonMessage::buffer, SharpenerguiButtonMessage::new, SharpenerguiButtonMessage::handler);
+		MiscmodMod.addNetworkMessage(SharpenerguiButtonMessage.class, SharpenerguiButtonMessage::buffer, SharpenerguiButtonMessage::new, SharpenerguiButtonMessage::handler);
 	}
 }

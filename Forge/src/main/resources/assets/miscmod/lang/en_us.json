@@ -1,0 +1,22 @@
+{
+  "subtitles.item.sword.slice": "Slash attack",
+  "item.golden.sharpened_iron_sword": "Sharpened Iron Sword",
+  "block.golden.sharpener": "Sharpener",
+  "item.miscmod.sawblade": "Sawblade",
+  "item.miscmod.sharpened_iron_sword": "Sharpened Iron Sword",
+  "gui.miscmod.sharpener_gui.label_sharpener": "Sharpener",
+  "block.miscmod.sharpener": "Sharpener",
+  "item.golden.sharpened_diamond_sword": "Sharpened Diamond Sword",
+  "gui.golden.sharpener_gui.button_sharpen": "Sharpen",
+  "item.golden.sharpened_stone_sword": "Sharpened Stone Sword",
+  "item.golden.sawblade": "Sawblade",
+  "item.miscmod.sharpened_diamond_sword": "Sharpened Diamond Sword",
+  "subtitles.entity.sliced": "Player slashed.",
+  "gui.golden.sharpener_gui.label_sharpener": "Sharpener",
+  "item.miscmod.sharpened_stone_sword": "Sharpened Stone Sword",
+  "item.miscmod.sharpened_wooden_sword": "Sharpened Wooden Sword",
+  "death.attack.sawblade": "%1$s consumed a sawblade",
+  "item.golden.sharpened_wooden_sword": "Sharpened Wooden Sword",
+  "subtitles.sword_slice": "Player slice.",
+  "gui.miscmod.sharpener_gui.button_sharpen": "Sharpen"
+}
